@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html lang="en" class="ie8 no-js"><![endif]-->
+<!--[if IE 9]><html lang="en" class="ie9 no-js"><![endif]-->
+<!--[if!IE]><!-->
+<html lang="zxx">
+<!--<![endif]-->
+<!-- Begin Head -->
+
+<head>
+  <title>彗冲科技</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <meta name="MobileOptimized" content="320">
+  <!--Start Style -->
+  <link rel="stylesheet" type="text/css" href="assets/css/fonts.css">
+  <link rel="stylesheet" href="https://www.jq22.com/jquery/bootstrap-4.2.1.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/icofont.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" id="theme-change" type="text/css" href="#">
+  <!-- Favicon Link -->
+  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+</head>
+
+<body class="mini-sidebar">
+  <div class="loader">
+    <div class="spinner"><img src="assets/images/loader.gif" alt="" /></div>
+  </div>
+  <!-- Main Body -->
+
+  <div class="page-wrapper bianpai">
+    <!-- Header Start -->
+    <header class="header-wrapper main-header">
+      <div class="header-inner-wrapper">
+        <div class="logo-wrapper"><a href="index.html" class="admin-logo"><img src="assets/images/logo.png" alt=""></a>
+        </div>
+        <div class="header-right">
+          <div class="serch-wrapper">
+            <form>
+              <input type="text" placeholder="Search Here...">
+            </form>
+            <a class="search-close" href="javascript:void(0);"><span class="icofont-close-line"></span></a>
+          </div>
+          <div class="header-left">
+
+          </div>
+          <div class="header-controls">
+
+            <div class="user-info-wrapper header-links"><a href="javascript:void(0);" class="user-info"><img
+                  src="assets/images/user.jpg" alt="" class="user-img img1">
+
+              </a>
+              <div class="user-info-box">
+                <div class="drop-down-header">
+                  <h4>张三</h4>
+                  <p>产品编排经理</p>
+                </div>
+                <ul>
+                  <li><a href="orders.html"><i class="far fa-edit"></i>编辑个人信息</a></li>
+
+                  <li><a href="login.html"><i class="fas fa-sign-out-alt"></i>退出</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Sidebar Start -->
+    <aside class="sidebar-wrapper">
+      <div class="side-menu-wrap">
+        <ul class="main-menu">
+          <li><a href="index.html" class="active"><span class="icon-menu feather-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home">
+                  <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
+                  <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                </svg>
+              </span><span class="menu-text">首页</span></a>
+          </li>
+          <li><a href="outline.html" class="active"><span class="icon-menu feather-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tablet">
+                  <rect x="4" y="2" width="16" height="20" rx="2" ry="2"></rect>
+                  <line x1="12" y1="18" x2="12.01" y2="18"></line>
+                </svg>
+              </span><span class="menu-text"> 大纲</span></a>
+
+          </li>
+          <li><a href="choreography.html"><span class="icon-menu feather-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                  stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-map">
+                  <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
+                  <line x1="8" y1="2" x2="8" y2="18"></line>
+                  <line x1="16" y1="6" x2="16" y2="22"></line>
+                </svg>
+              </span><span class="menu-text">编排</span></a>
+
+          </li>
+
+        </ul>
+      </div>
+    </aside>
+    <!-- Container Start -->
+    <div class="page-wrapper">
+      <div class="main-content" style="padding-top: 20px;">
+        <!-- Page Title Start -->
+        <div class="row">
+          <div class="col xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+            <div class="page-title-wrapper">
+              <div class="page-title-box">
+                <h4 class="page-title">产品编排</h4>
+              </div>
+              <div class="form-footer">
+                <button type="button" class="btn btn-danger squer-btn sm-btn mt-2 mr-2" onclick="btnbtn1()">预览</button>
+                <button type="button" class="btn btn-danger squer-btn sm-btn mt-2 mr-2" onclick="btnsave()">保存</button>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <!-- Products view Start -->
+        <div class="row ad-btm-space">
+
+          <div class="col-xl-2 col-lg-4 col-md-4 col-sm-12">
+            <div class="int-blog-sidebar">
+              <div class="int-sidebar-box recent-blog-one">
+                <h4>常用组件</h4>
+                <div class="int-blog-category-mini">
+                  <ul>
+                    <li onclick="adddiv();adddanhwb(this)"><a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="8px">
+                          <path fill-rule="evenodd" fill=" "
+                            d="M0.038,4.720 L6.164,4.710 C6.558,4.710 6.878,4.392 6.878,3.999 L6.878,2.016 L9.967,3.999 L5.777,6.688 C5.445,6.901 5.349,7.342 5.563,7.673 C5.777,8.004 6.219,8.099 6.551,7.886 L11.673,4.597 C11.877,4.466 12.000,4.241 12.000,3.999 C12.000,3.756 11.877,3.531 11.673,3.400 L6.551,0.112 C6.331,-0.030 6.051,-0.040 5.822,0.085 C5.592,0.210 5.449,0.449 5.449,0.710 L5.449,3.286 L0.000,3.286 ">
+                          </path>
+                        </svg>
+                        <span>单行文本</span>
+                      </a></li>
+                    <li onclick="adddiv();addduohwb(this)"><a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="8px">
+                          <path fill-rule="evenodd" fill=" "
+                            d="M0.038,4.720 L6.164,4.710 C6.558,4.710 6.878,4.392 6.878,3.999 L6.878,2.016 L9.967,3.999 L5.777,6.688 C5.445,6.901 5.349,7.342 5.563,7.673 C5.777,8.004 6.219,8.099 6.551,7.886 L11.673,4.597 C11.877,4.466 12.000,4.241 12.000,3.999 C12.000,3.756 11.877,3.531 11.673,3.400 L6.551,0.112 C6.331,-0.030 6.051,-0.040 5.822,0.085 C5.592,0.210 5.449,0.449 5.449,0.710 L5.449,3.286 L0.000,3.286 ">
+                          </path>
+                        </svg>
+                        <span>多行文本</span> </a></li>
+                    <li onclick="adddiv();addrqxz(this)"><a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="8px">
+                          <path fill-rule="evenodd" fill=" "
+                            d="M0.038,4.720 L6.164,4.710 C6.558,4.710 6.878,4.392 6.878,3.999 L6.878,2.016 L9.967,3.999 L5.777,6.688 C5.445,6.901 5.349,7.342 5.563,7.673 C5.777,8.004 6.219,8.099 6.551,7.886 L11.673,4.597 C11.877,4.466 12.000,4.241 12.000,3.999 C12.000,3.756 11.877,3.531 11.673,3.400 L6.551,0.112 C6.331,-0.030 6.051,-0.040 5.822,0.085 C5.592,0.210 5.449,0.449 5.449,0.710 L5.449,3.286 L0.000,3.286 ">
+                          </path>
+                        </svg>
+                        <span>日期选择</span> </a></li>
+                    <li onclick="adddiv();addbt(this)"><a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="8px">
+                          <path fill-rule="evenodd" fill=" "
+                            d="M0.038,4.720 L6.164,4.710 C6.558,4.710 6.878,4.392 6.878,3.999 L6.878,2.016 L9.967,3.999 L5.777,6.688 C5.445,6.901 5.349,7.342 5.563,7.673 C5.777,8.004 6.219,8.099 6.551,7.886 L11.673,4.597 C11.877,4.466 12.000,4.241 12.000,3.999 C12.000,3.756 11.877,3.531 11.673,3.400 L6.551,0.112 C6.331,-0.030 6.051,-0.040 5.822,0.085 C5.592,0.210 5.449,0.449 5.449,0.710 L5.449,3.286 L0.000,3.286 ">
+                          </path>
+                        </svg>
+                        <span>标题</span> </a></li>
+                    <li onclick="adddiv();addtpsc(this)"><a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="8px">
+                          <path fill-rule="evenodd" fill=" "
+                            d="M0.038,4.720 L6.164,4.710 C6.558,4.710 6.878,4.392 6.878,3.999 L6.878,2.016 L9.967,3.999 L5.777,6.688 C5.445,6.901 5.349,7.342 5.563,7.673 C5.777,8.004 6.219,8.099 6.551,7.886 L11.673,4.597 C11.877,4.466 12.000,4.241 12.000,3.999 C12.000,3.756 11.877,3.531 11.673,3.400 L6.551,0.112 C6.331,-0.030 6.051,-0.040 5.822,0.085 C5.592,0.210 5.449,0.449 5.449,0.710 L5.449,3.286 L0.000,3.286 ">
+                          </path>
+                        </svg>
+                        <span>图片上传</span> </a></li>
+
+                  </ul>
+                </div>
+
+              </div>
+              <div class="int-sidebar-box recent-blog-one">
+                <h4>按钮组件</h4>
+                <div class="int-blog-category-mini">
+                  <ul>
+                    <li onclick="addbuttondiv();addsubmit(this)"><a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="8px">
+                          <path fill-rule="evenodd" fill=" "
+                            d="M0.038,4.720 L6.164,4.710 C6.558,4.710 6.878,4.392 6.878,3.999 L6.878,2.016 L9.967,3.999 L5.777,6.688 C5.445,6.901 5.349,7.342 5.563,7.673 C5.777,8.004 6.219,8.099 6.551,7.886 L11.673,4.597 C11.877,4.466 12.000,4.241 12.000,3.999 C12.000,3.756 11.877,3.531 11.673,3.400 L6.551,0.112 C6.331,-0.030 6.051,-0.040 5.822,0.085 C5.592,0.210 5.449,0.449 5.449,0.710 L5.449,3.286 L0.000,3.286 ">
+                          </path>
+                        </svg>
+                        <span>提交</span> </a></li>
+                    <li onclick="addbuttondiv();addcancle(this)"><a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="8px">
+                          <path fill-rule="evenodd" fill=" "
+                            d="M0.038,4.720 L6.164,4.710 C6.558,4.710 6.878,4.392 6.878,3.999 L6.878,2.016 L9.967,3.999 L5.777,6.688 C5.445,6.901 5.349,7.342 5.563,7.673 C5.777,8.004 6.219,8.099 6.551,7.886 L11.673,4.597 C11.877,4.466 12.000,4.241 12.000,3.999 C12.000,3.756 11.877,3.531 11.673,3.400 L6.551,0.112 C6.331,-0.030 6.051,-0.040 5.822,0.085 C5.592,0.210 5.449,0.449 5.449,0.710 L5.449,3.286 L0.000,3.286 ">
+                          </path>
+                        </svg>
+                        <span>取消</span> </a></li>
+                    <li onclick="addbuttondiv();addaddcar(this)"><a href="javascript:;">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="12px" height="8px">
+                          <path fill-rule="evenodd" fill=" "
+                            d="M0.038,4.720 L6.164,4.710 C6.558,4.710 6.878,4.392 6.878,3.999 L6.878,2.016 L9.967,3.999 L5.777,6.688 C5.445,6.901 5.349,7.342 5.563,7.673 C5.777,8.004 6.219,8.099 6.551,7.886 L11.673,4.597 C11.877,4.466 12.000,4.241 12.000,3.999 C12.000,3.756 11.877,3.531 11.673,3.400 L6.551,0.112 C6.331,-0.030 6.051,-0.040 5.822,0.085 C5.592,0.210 5.449,0.449 5.449,0.710 L5.449,3.286 L0.000,3.286 ">
+                          </path>
+                        </svg>
+                        <span>加入购物车</span> </a></li>
+
+
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-7 col-lg-8 col-md-8 col-sm-12">
+            <div class="card" style="height: 700px;">
+              <div class="card-header mainedit">
+
+                <div class="mb-3 newdiv">
+                  <label class="form-label">安鑫七天固收开放式产品（代销理财产品）
+                  </label>
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">收益率</label><input type="text" class="form-control"
+                    value="3.55%">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">起购金额</label><input type="text" class="form-control"
+                    value="100元">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">风险等级</label><input type="text" class="form-control"
+                    value="R2风险">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">销售地区</label><input type="text" class="form-control"
+                    value="全国">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">币种</label><input type="text" class="form-control"
+                    value="人民币">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">收益类型</label><input type="text" class="form-control"
+                    value="非保本浮动收益">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">产品代码</label><input type="text" class="form-control"
+                    value="XXXXXXXXX">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">产品期限</label><input type="text" class="form-control"
+                    value="180天">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">发行机构</label><input type="text" class="form-control"
+                    value="XXXXXXXX">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">募集方式</label><input type="text" class="form-control"
+                    value="公募">
+                </div>
+                <div class="mb-3 newdiv"><label class="form-label">参考价格</label><input type="text" class="form-control"
+                    value="1.00元">
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12">
+            <div class="int-blog-sidebar">
+              <div class="int-sidebar-box">
+                <h4>属性</h4>
+              </div>
+              <div class="mb-3 title">
+                <label class="form-label">标题</label>
+                <input class="form-control" placeholder="请输入标题..." data-bs-original-title="" title="">
+              </div>
+              <div class="mb-3 neirong">
+                <label class="form-label">内容</label>
+                <input class="form-control" placeholder="请输入内容..." data-bs-original-title="" title="">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">标题字体大小</label>
+                <input class="form-control" placeholder="" data-bs-original-title="" title="">
+              </div>
+              <div class="mb-3">
+                <label class="form-label">内容字体大小</label>
+                <input class="form-control" placeholder="" data-bs-original-title="" title="">
+              </div>
+              <div class="dd-flex align-items-center">
+
+                <button type="button" class="btn btn-danger squer-btn mt-2 mr-2 clearneirong">清空内容</button>
+                <button type="button" class="btn btn-light squer-btn mt-2 mr-2 deletezujian">删除组件</button>
+              </div>
+              <div class="mb-3">
+
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-- Slide Setting Box -->
+  <div class="slide-setting-box">
+    <div class="slide-setting-holder">
+      <div class="setting-box-head">
+        <h4>General Settings</h4>
+        <a href="javascript:void(0);" class="close-btn">Close</a>
+      </div>
+      <div class="setting-box-body">
+        <div class="p-4">
+          <div class="switch-settings">
+            <div class="d-flex mb-3"><span class="mr-auto fs-15">Notifications</span>
+              <div class="checkbox checkbox-toggle">
+                <input id="checkbox55" type="checkbox">
+                <label for="checkbox55"></label>
+              </div>
+            </div>
+            <div class="d-flex mb-3"><span class="mr-auto fs-15">Show your emails</span>
+              <div class="checkbox checkbox-toggle">
+                <input id="checkbox56" type="checkbox">
+                <label for="checkbox56"></label>
+              </div>
+            </div>
+            <div class="d-flex mb-3"><span class="mr-auto fs-15">Show Task statistics</span>
+              <div class="checkbox checkbox-toggle">
+                <input id="checkbox57" type="checkbox">
+                <label for="checkbox57"></label>
+              </div>
+            </div>
+            <div class="d-flex mb-3"><span class="mr-auto fs-15">Show recent activity</span>
+              <div class="checkbox checkbox-toggle">
+                <input id="checkbox58" type="checkbox">
+                <label for="checkbox58"></label>
+              </div>
+            </div>
+            <div class="d-flex mb-3"><span class="mr-auto fs-15">System Logs</span>
+              <div class="checkbox checkbox-toggle">
+                <input id="checkbox59" type="checkbox">
+                <label for="checkbox59"></label>
+              </div>
+            </div>
+            <div class="d-flex mb-3"><span class="mr-auto fs-15">Error Reporting</span>
+              <div class="checkbox checkbox-toggle">
+                <input id="checkbox60" type="checkbox">
+                <label for="checkbox60"></label>
+              </div>
+            </div>
+            <div class="d-flex mb-3"><span class="mr-auto fs-15">Show your status to all</span>
+              <div class="checkbox checkbox-toggle">
+                <input id="checkbox61" type="checkbox">
+                <label for="checkbox61"></label>
+              </div>
+            </div>
+            <div class="d-flex"><span class="mr-auto fs-15">Keep up to date</span>
+              <div class="checkbox checkbox-toggle">
+                <input id="checkbox62" type="checkbox">
+                <label for="checkbox62"></label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="p-3 border-top border-bottom">
+        <h5 class="border-bottom-0 mb-0">Overview</h5>
+      </div>
+      <div class="p-4">
+        <div class="progress-wrapper">
+          <div class="mb-3">
+            <p class="mb-2">Achieves<span class="float-right text-muted font-weight-normal">95%</span></p>
+            <div class="progress h-1">
+              <div class="progress-bar bg-primary col-3" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-wrapper pt-2">
+          <div class="mb-3">
+            <p class="mb-2">Projects<span class="float-right text-muted font-weight-normal">65%</span></p>
+            <div class="progress">
+              <div class="progress-bar bg-secondary col-3" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-wrapper pt-2">
+          <div class="mb-3">
+            <p class="mb-2">Earnings<span class="float-right text-muted font-weight-normal">55%</span></p>
+            <div class="progress">
+              <div class="progress-bar bg-success col-8" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-wrapper pt-2">
+          <div class="mb-3">
+            <p class="mb-2">Balance<span class="float-right text-muted font-weight-normal">50%</span></p>
+            <div class="progress h-1">
+              <div class="progress-bar bg-warning w-50 " role="progressbar"></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-wrapper pt-2">
+          <div class="mb-3">
+            <p class="mb-2">Total Profits<span class="float-right text-muted font-weight-normal">80%</span></p>
+            <div class="progress">
+              <div class="progress-bar bg-info col-6" role="progressbar" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+        <div class="progress-wrapper pt-2">
+          <div class="mb-3">
+            <p class="mb-2">Total Likes<span class="float-right text-muted font-weight-normal">75%</span></p>
+            <div class="progress h-1">
+              <div class="progress-bar bg-teal w-75" role="progressbar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Color Setting -->
+
+  <!-- Color Setting -->
+  <!-- Script Start -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/foresee.js"></script>
+  <script src="assets/js/choreography.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+  <script>
+    function btnbtn1() {
+      window.open('foresee-caogao.html', '_blank');
+    }
+  </script>
+</body>
+
+</html>
