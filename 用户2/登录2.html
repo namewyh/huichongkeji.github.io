@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>登陆</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<link href="assets/css/style.min.css" rel="stylesheet">
+<!-- Favicon Link -->
+<link rel="shortcut icon" type="image/png" href="../员工使用/jquerybootstrapHtglmoban/assets/images/favicon.png">
+
+<body>
+
+	<div class="login-container">
+		<h1>WELCOME TO LOGIN</h1>
+
+		<div class="connect">
+			<p>HUICHONG Technology</p>
+		</div>
+
+		<form action="" method="post" id="loginForm">
+			<div>
+				<input type="text" name="username" class="username" placeholder="用户名" autocomplete="off" />
+			</div>
+			<div>
+				<input type="password" name="password" class="password" placeholder="密码" oncontextmenu="return false"
+					onpaste="return false" />
+			</div>
+			<button id="submit" type="submit" style="background: rgba(254,37,46,0.71);"><a href="首页.html" id="denglu">登
+					陆</a></button>
+		</form>
+
+		<a href="注册2.html">
+			<button type="button" class="register-tis">还没有账号？</button>
+		</a>
+		<br>
+		<div>
+			银行工作人员 &nbsp
+			<a href="#" style="height: 50px;line-height: 60px;color: rgb(224, 48, 48);text-decoration: none;"
+				onclick="btnbtn()">
+				点击登录
+			</a>
+		</div>
+
+
+	</div>
+
+</body>
+<!-- 引入jquery库，如果页面已经有其他版本的也行，不要重复引用 -->
+<script src="https://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+<!--自动更换背景图片用的一个插件-->
+<script src="assets/js/supersized.3.2.7.min.js"></script>
+<!--表单验证的插件-->
+<script src="assets/js/jquery.validate.min.js?var1.14.0"></script>
+
+<!-- 上面三个js不要改，下面才是我们自定义的 -->
+<script src="assets/js/common.js"></script>
+<!-- 背景图片更换配置 -->
+<script src="assets/js/supersized-init.js"></script>
+
+
+<script>
+	function btnbtn() {
+		window.open('../员工使用/jquerybootstrapHtglmoban/login.html', '_blank');
+	}
+</script>
+
+</html>
